@@ -1,0 +1,423 @@
+/* top elements */
+* { margin:0; padding:0; outline:0; }
+
+body {
+	background:url(images/wood.jpg);
+        font: 15px/170% 'Lucida Grande', 'Trebuchet MS', Tahoma, Sans-serif;	
+ 	text-align: center;
+	
+}  
+
+/* links */
+
+a:link, a:visited {
+	color:#00AEFF;
+	
+	background: inherit;
+	text-decoration: none;
+	font-size: 1em;
+
+}
+a:hover { 
+	
+	text-decoration: underline;
+	color: #13a;
+ 
+}
+ 
+/* headers */
+h1, h2, h3,h4 {color: #00AEFF;
+	
+	font-weight: bold;
+}
+h1 {	
+	font-size: 1.4em;
+}
+h2 {	
+	font-size: 1.3em;
+	color: #006699; 
+	
+}
+h3 {
+	font-size: 1.2em;
+	
+	letter-spacing: -0.5px;
+}
+h4 {	
+	font-size: 1.1em;
+	color:#006633;
+	
+
+
+}
+
+h1, h2, h3,h4, p { 
+	padding: 0;
+	margin: 15px 20px;
+	
+}
+p {
+text-align:justify; 
+
+}
+
+ul, ol {
+	margin: 10px 30px;
+	padding: 0 15px;	
+	
+}
+ul span, ol span {
+	color: #666666;
+}
+
+/* images */
+
+/* form elements */
+form {
+	margin:10px; padding: 0 5px;
+	border: 1px solid #f2f2f2; 
+	background-color: #FAFAFA; 
+	border-radius: 10px;
+	-moz-border-radius: 10px;  	
+}
+label {
+	display:block;
+	font-weight:bold;
+	margin:5px 0;
+}
+input {
+	padding:2px;
+	border:1px solid #eee;
+	font: normal 1em Verdana, sans-serif;
+	color:#777;
+}
+textarea {
+	width:400px;
+	padding:2px;
+	font: normal 1em Verdana, sans-serif;
+	border:1px solid #eee;
+	height:100px;
+	display:block;
+	color:#777;
+}
+input.button { 
+	font: bold 15px Arial, Sans-serif; 
+	height: 24px;
+	margin: 0;
+	padding: 3px 20px; 
+	color: 	#13a;;
+	background: #BDD2FF;
+	border: none;
+	border-radius: 10px;
+	-moz-border-radius: 10px;  
+}
+input.button:hover { 
+background:#CFDEFF;
+}
+
+
+/* -------------------------------------------------------
+      LAYOUT 
+---------------------------------------------------------- */
+#wrap {
+ background:#FFF;
+   margin: 25px auto ;	
+   text-align: left;
+ 
+   	width: 1000px;
+	padding:10px;
+	border : 0px solid #006699;
+	border-radius: 10px;
+	-moz-border-radius: 10px;  	
+}
+#content-wrap {
+	clear:both;
+   margin:0; padding:0;
+	width: 790px;		
+}
+
+/* header */
+#header {
+
+	
+    	width: 1000px;
+	height: 150px; 
+	position:relative;
+	margin: 0 auto ;	
+   	text-align: left;
+ 
+   	border : 0px solid black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;  	
+	
+}
+
+/* header links */
+#header #header-links {
+	position: absolute;
+	top: 5px; right: 20px;	
+	color: #DC143C;
+	font-size: 15px;
+		
+}
+#header #header-links a {	
+	color: #006699;
+	text-decoration: none;	
+}
+#header #header-links a:hover {
+	color:#DC143C;	
+}
+
+
+
+
+   
+/* menubar */
+#menubar {
+		
+	float:right;
+	width: 736px;
+	margin: 0px -205px 0px 0; padding: 0;
+	
+    	display: inline;
+	background:black;
+	padding:0px;
+	border-radius: 15px;
+	-moz-border-radius: 15px
+}
+#menubar ul{text-align:center;
+	padding:10px;
+	margin:0;
+  
+   }
+#menubar li{
+
+	display:inline;
+	padding:20px;
+	display:inline;
+	margin:0;
+}
+
+#menubar a{
+
+color:#C1C1C1;
+}
+
+#menubar a:hover{
+border-radius: 15px;
+-moz-border-radius: 15px;
+padding:10px;
+
+background:red;
+font-weight:bold;
+color:#FFF;
+}
+
+/* main content */
+#main {
+	float: left;
+	width: 735px;
+	margin: 15px 0 10px 5px; 
+	color:black;
+	background:#F2F0E9;
+    	display: inline;
+
+	padding:0px;
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px
+}
+#mainbranch {
+	float: left;
+	width: 735px;
+	margin: 15px 0 10px 5px; 
+	color:black;
+	
+    	display: inline;
+
+	padding:0px;
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px
+}
+#main h1 {
+	padding: 8px 0 8px 25px;
+    margin: 10px 15px;
+    letter-spacing: .5px;
+	text-transform: none;
+	background: url(images/square_arrow.gif) no-repeat 0% .6em;
+	border-bottom: 2px solid #f2f2f2;	
+	color: #006699; 	
+}	
+
+/* sidebar */
+
+#sidebar {
+	float:left;
+	width: 245px;
+	margin: 60px 10px 10px 0; 	   	
+	background:#3C383A;
+	padding:0px;
+	border-radius: 15px;
+	-moz-border-radius: 15px
+}
+#sidebar h1 {
+	padding: 8px 0px 3px 25px;
+    margin: 10px 15px;
+    letter-spacing: .5px;
+	background: url(square_arrow.gif) no-repeat 0% .6em;
+	text-transform: none;	
+	color:white;
+}
+#news{
+	border:5px solid #3C383A;
+	width: 237px;	   	
+	background:#F2F0E9;
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px
+}
+
+
+/* footer */
+#footer { 
+	clear: both;
+	height: 20px;
+	
+	background:#FFF;
+	margin: 0;	
+	font-size: .8em;
+	border-radius: 15px;
+	-moz-border-radius: 15px
+}
+#footer a { 
+	text-decoration: none; 
+   	
+}
+#footer #footer-left {
+	color:black;
+	width: 50%;
+	float: left;
+	margin: 0; padding: 3px 0 5px 10px;
+}
+#footer #footer-right {
+	color:black;
+	width: 40%;
+	float: right;
+	margin: 0; padding: 3px 20px 15px 40px;
+    text-align: right;
+}
+
+/* alignment classes */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
+/* additional classes */
+.clear {	clear:both;	} 
+.hide  { display: none; }
+.gray  { color: #CCC; }
+
+.comments { 
+	color: #333; 
+	background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+	padding: 5px 10px;
+	margin-top: 20px;
+    font-size: .9em;
+}
+
+#alogo{
+        width: 1000px; height: 56px;border:none;
+        background: url("images/logo.jpg") no-repeat;
+ display:block;
+
+    	width: 1000px;
+	height: 150px; 
+        }
+
+
+
+
+
+/* start - table */
+table { 
+align:center;
+	margin-left:auto;
+margin-right:auto;
+	
+}
+th strong {
+	color: #fff;
+}
+th {font-size: 1.2em;
+	background: 	#00AEFF;
+	height: 29px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #FFF;
+	text-align: center;
+	border-left: 1px solid #B6D59A;
+	border-bottom: solid 2px #FFF;
+}
+tr {
+	height: 30px;
+}
+td {	color:#13a;
+	font-size: 1.2em;
+	padding-left: 50px;
+	padding-right: 20px;
+	border-left: 1px solid #FFF;
+	border-bottom: solid 1px #ffffff;
+	text-align: center;
+	cellpadding:50px;
+}
+td.first,th.first {
+	border-left: 0px;
+}
+tr.row-a {
+	background: #F8F8F8;
+}
+tr.row-b {
+	background: #EFEFEF;
+}
+/* end - table */
+ 
+
+
+* html body #sidebar ul.sidemenu li {
+	height: 1%;
+}
+#sidebar ul.sidemenu li a {
+	text-decoration: none;	
+	background-image: none;	
+	color: #13a;			
+}
+#sidebar ul.sidemenu li a:hover {	
+	text-decoration: underline;	
+}
+#sidebar ul.sidemenu ul { margin: 0 0 0 5px; padding: 0; }
+#sidebar ul.sidemenu ul li { background: none; }
+
+
+
+.p1{
+text-align:justify;
+}
+
+
+.divfeed{
+text-align:justify;
+background:#FFF;
+width:50%;
+margin-left:50px;
+
+border-radius: 15px;
+-moz-border-radius: 15px
+
+}
+/* Holly Hack for IE \*/
+* html .sidebarmenu ul li { float: left; height: 1%; }
+* html .sidebarmenu ul li a { height: 1%; }
+/* End */

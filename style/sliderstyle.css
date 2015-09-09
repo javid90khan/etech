@@ -1,0 +1,15 @@
+
+#slider { height: 600px; position: relative; }
+#slider .slider-nav a { display: block; width: 18px; height: 49px; font-size: 0; line-height: 0; text-indent: -4000px; position: absolute; top: 120px; }
+#slider .slider-nav a.prev { left: 0; background: url(images/button-prev.gif); }
+#slider .slider-nav a.next { right: 0; background: url(images/button-next.gif); }
+
+#slider-holder { height: 600px; }
+#slider-holder .jcarousel-clip { height: 500px; position: relative; overflow: hidden; }
+#slider-holder .slide-image { float: right; display: inline; }
+#slider-holder .slide-info { float: left; display: inline; width: 500px; padding-top: 20px; overflow: hidden;}
+#slider-holder .slide-info p { padding-bottom:15px; }
+#slider-holder ul { height: 600px; position: relative;  }
+#slider-holder ul li {overflow: hidden;list-style-type: none; float: left; display: inline; height: 600px; width: 600px; padding: 50px 130px 4px 54px; position: relative;  }
+
+

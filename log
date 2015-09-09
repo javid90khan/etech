@@ -1,0 +1,13 @@
+1.replace slider.php in 'etechacademy/include/'
+2.replace headlinks.php in 'etechacademy/include/'
+3.replace header.php in 'etechacademy/include/'
+4.replace footer.php in 'etechacademy/include/'
+5.rename Admission.php in 'etechacademy/' to 'admission.php'
+6.replace feedback.php in 'etechacademy/'
+7.replace download.php in 'etechacademy/'
+8.include download folder in 'etechacademy/'
+9.replace images folder in 'etechacademy/'
+10.replace style folder in 'etechacademy/'
+11.remove register.php(most imp)
+12.execute following query
+ALTER TABLE  `admission` CHANGE  `phone`  `phone` VARCHAR( 10 ) NOT NULL
